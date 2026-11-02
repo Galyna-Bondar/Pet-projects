@@ -1,6 +1,6 @@
 # My-works
 
-Portfolio page with four layout projects (travel landing, corporate landing, photo-gear rental, browser new-tab page).
+Portfolio page with two finished landing pages (travel landing and corporate landing).
 
 - `Site_1` — travel landing page ("Bhromaon"): responsive menu, SCSS, jQuery.
 - `Site_2` — multi-section landing page: Slick slider, lightGallery gallery, contact form.
