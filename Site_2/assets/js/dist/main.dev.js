@@ -132,13 +132,13 @@ $(function () {
   });
   $("#registration_wrap").on('submit', function (e) {
     e.preventDefault();
-    var BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN';
+    var BOT_TOKEN = '5040909885:AAGtPX_nug8vv5yK6dfzQ5G03PyJ6QVOu7g';
     /*
     @get_id_bot
     /get_id
     */
 
-    var CHAT_ID = 'YOUR_CHAT_ID';
+    var CHAT_ID = '-1001513438907';
     var text = encodeURI("<b>Name:</b> " + $("#name").val() + "\n<b>Email:</b> " + $("#email").val());
     $.get("https://api.telegram.org/bot".concat(BOT_TOKEN, "/sendMessage?chat_id=").concat(CHAT_ID, "&text=").concat(text, "&parse_mode=html"), function (json) {
       if (json.ok) {
