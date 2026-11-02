@@ -1,27 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My works</title>
-    <link rel="stylesheet" href="assets/css/style.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halyna Bondar — Web Developer, portfolio</title>
+  <meta name="description" content="Portfolio of Halyna Bondar, web developer from Kyiv: responsive websites built from design mockups with HTML, SCSS and JavaScript.">
+  <link rel="stylesheet" href="assets/css/portfolio.css">
 </head>
-
 <body>
-  <div class="circle">
-    <h1>My works</h1>
-    <dl>
-        <li><a href="Site_1/index.html">Site 1</a></li>
-        <li><a href="Site_2/index.html">Site 2</a></li>
-    </dl>
-  </div><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap" rel="stylesheet">
-</body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="#top">Halyna Bondar</a>
+      <nav>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
+  <main id="top">
+    <div class="hero">
+      <div class="wrap">
+        <div class="eyebrow">Web developer · Kyiv, Ukraine</div>
+        <h1>Responsive websites built from design mockups.</h1>
+        <p>I turn layouts into clean, responsive pages with HTML, SCSS and JavaScript. Below are four practice and test projects; each one opens as a live page.</p>
+        <div class="cta">
+          <a class="btn" href="#work">View projects</a>
+          <a class="btn ghost" href="mailto:halyna.bondr@gmail.com">Get in touch</a>
+        </div>
+      </div>
+    </div>
+
+    <section id="work">
+      <div class="wrap">
+        <h2 class="title">Selected work</h2>
+        <p class="lead">Layouts from design mockups, built as practice or as test assignments. Click a card to open the live page or the source code.</p>
+
+        <div class="grid">
+          <article class="card">
+            <div class="preview"><iframe src="Site_1/index.html" title="Preview of Travel landing page" loading="lazy" tabindex="-1"></iframe></div>
+            <div class="body">
+              <h3>Travel landing page</h3>
+              <p>Multi-section landing page for a travel company with a responsive menu and mobile layout.</p>
+              <div class="tags"><span>HTML</span><span>SCSS</span><span>JavaScript</span><span>jQuery</span><span>Responsive</span></div>
+              <div class="links"><a href="Site_1/index.html">Live page →</a></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="preview"><iframe src="Site_2/index.html" title="Preview of Corporate landing page" loading="lazy" tabindex="-1"></iframe></div>
+            <div class="body">
+              <h3>Corporate landing page</h3>
+              <p>One-page corporate site with a slider, an image gallery with lightbox and a contact form.</p>
+              <div class="tags"><span>HTML</span><span>SCSS</span><span>JavaScript</span><span>Slick</span><span>lightGallery</span></div>
+              <div class="links"><a href="Site_2/index.html">Live page →</a></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="preview"><iframe src="https://galyna-bondar.github.io/Test_home_page/" title="Preview of Photo-gear rental home page" loading="lazy" tabindex="-1"></iframe></div>
+            <div class="body">
+              <h3>Photo-gear rental home page</h3>
+              <p>Home page of a camera rental shop from a mockup: product slider and mobile navigation. Test assignment.</p>
+              <div class="tags"><span>HTML</span><span>SCSS</span><span>JavaScript</span><span>Slick</span></div>
+              <div class="links">
+                <a href="https://galyna-bondar.github.io/Test_home_page/">Live page →</a>
+                <a href="https://github.com/Galyna-Bondar/Test_home_page">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="preview"><iframe src="https://galyna-bondar.github.io/Test-Task-Google-page/" title="Preview of New-tab page" loading="lazy" tabindex="-1"></iframe></div>
+            <div class="body">
+              <h3>Browser new-tab page</h3>
+              <p>Recreation of a browser "new tab" page: centered search, shortcuts, responsive layout, logo switch with JavaScript. Test assignment.</p>
+              <div class="tags"><span>HTML</span><span>SCSS</span><span>JavaScript</span><span>jQuery</span></div>
+              <div class="links">
+                <a href="https://galyna-bondar.github.io/Test-Task-Google-page/">Live page →</a>
+                <a href="https://github.com/Galyna-Bondar/Test-Task-Google-page">Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <p class="note">All four projects are layouts from existing mockups; names and texts belong to those mockups.</p>
+      </div>
+    </section>
+
+    <section id="skills" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+      <div class="wrap">
+        <h2 class="title">What I work with</h2>
+        <p class="lead">Core tools used in the projects above.</p>
+        <div class="skills">
+          <div><b>Markup &amp; styles</b><span>HTML5, CSS3, SCSS, responsive layout</span></div>
+          <div><b>Scripting</b><span>JavaScript, jQuery</span></div>
+          <div><b>UI components</b><span>Slick slider, lightGallery, Leaflet</span></div>
+          <div><b>Tools</b><span>Git, GitHub, VS Code</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="wrap">
+      <div>
+        <h2 class="title" style="font-size:22px">Contact</h2>
+        <p class="contact" style="margin-top:8px">
+          <a href="mailto:halyna.bondr@gmail.com">halyna.bondr@gmail.com</a>
+          <a href="https://github.com/Galyna-Bondar">GitHub</a>
+          <a href="https://www.linkedin.com/in/halyna-bondar-371327107/">LinkedIn</a>
+        </p>
+      </div>
+      <p>© 2026 Halyna Bondar</p>
+    </div>
+  </footer>
+</body>
 </html>

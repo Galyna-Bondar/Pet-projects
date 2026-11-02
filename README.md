@@ -1,6 +1,6 @@
 # My-works
 
-Early layout practice (2022): two landing pages built from design mockups.
+Portfolio page with four layout projects (travel landing, corporate landing, photo-gear rental, browser new-tab page).
 
 - `Site_1` — travel landing page ("Bhromaon"): responsive menu, SCSS, jQuery.
 - `Site_2` — multi-section landing page: Slick slider, lightGallery gallery, contact form.

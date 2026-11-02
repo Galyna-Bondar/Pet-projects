@@ -77,7 +77,7 @@ var panel = {
     document.getElementById("panel").remove();
   }
 };
-panel.success('Success text here', true);
+// demo notification removed
 /*panel.info('Info text here');
 panel.warning('Info text here');
 panel.danger('Info text here');
