@@ -209,13 +209,13 @@ lightGallery(document.getElementById('lightgallery'), {
       $("#registration_wrap").on('submit', function(e){
           e.preventDefault();
   
-       const BOT_TOKEN = '5040909885:AAGtPX_nug8vv5yK6dfzQ5G03PyJ6QVOu7g';
+       const BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN';
             /*
          @get_id_bot
          /get_id
          */
     
-       const CHAT_ID ='-1001513438907';
+       const CHAT_ID ='YOUR_CHAT_ID';
        let text =encodeURI("<b>Name:</b> "+$("#name").val()+"\n<b>Email:</b> "+$("#email").val());
 
 
